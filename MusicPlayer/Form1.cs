@@ -25,8 +25,6 @@ namespace MusicPlayer
 
         private void btn_open_Click(object sender, EventArgs e)
         {
-            Startindex = 0;
-            player.n
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
             if (ofd.ShowDialog() == DialogResult.OK)
